@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment | CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Assignment - CSS</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="assignment.html">Assignments</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="project.html">Project</a>
+                    <div class="dropdown-content">
+                        <a href="research.html">Research</a>
+                    </div>
+                </li>
+                <li><a href="tool.html">Tools</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h2>About CSS</h2>
+            <p>
+                Cascading Stylesheets (CSS) is used to style HTML documents. It describes how HTML elements should be displayed, from
+                font size and colour to resizing images and other content on the page. It can also be used to define the layout of your
+                webppage. Styles can also
+                be embeded into a HTML element by using the style attribute. The syntax of such styles is similar to CSS.<br>
+                To use CSS in a HTML document, it has to be linked in the head section of the document. Below is the how to link a CSS
+                file to a HTML document.
+                <pre>   &lt;link rel="stylesheet" href="style.css"&gt;</pre>
+            </p>
+            <br>
+            <h2>CSS Syntax</h2>
+            <p>
+                To style a HTML element, I created a CSS file and used it to select an element. In the following example from this
+                webpage, I selected all elements
+                contained in the body element. I then changed the font and font colour of all text in the body, and changed the
+                background colour of the page. The
+                font colour is defined using a built in colour value, and the background colour is defined using a hex colour code.
+                <pre>   body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        background-color: #0E0114;
+    }</pre>
+                Each property is defined one by one, and is seperated by semi-colons. The style properties of each element is enclosed in curly brackets. <br>
+            </p>
+
+            <p>
+                Another way to style HTML is to use classes. HTML elements has a class attribute which is a name given to the element
+                other than its tag. An element can have multiple classes, where each class name is seperated by spaces. The following
+                HTML element has 2 classes, "text" and "main".
+
+                <pre>&lt;p class="text main"&gt;This is some sample html&lt;/p&gt;</pre>
+                
+                These classes allow styling a specific group of elements while still using the same tags as other unstyled elements. To
+                select a class, a "."" must be placed before the name of the class in the CSS file. The following is another example
+                from this webpage, where I used ".content" to define the content in the page, then change the padding, width, and margin
+                of the main content of the page.
+                <pre>
+    .content {
+        padding-top: 1%;
+        width: 80%;
+        margin: auto;
+    }</pre>
+            </p>
+
+    </div>
+</body>
+</html>

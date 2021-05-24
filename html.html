@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment | HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Assignment - HTML</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="assignment.html">Assignments</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="project.html">Project</a>
+                    <div class="dropdown-content">
+                        <a href="research.html">Research</a>
+                    </div>
+                </li>
+                <li><a href="tool.html">Tools</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h2>About HTML</h2>
+            <p>
+                Hypertext Markup Language (HTML) is the standard markup language used to create web pages. <br>
+                It defines the content of the webpage using a series of elements, which are marked by a start and end
+                tag with content inside.
+                These elements tell the browser how to render the content. <br>
+                An example element has this format:
+            <pre>   &lt;elementname&gt;Content goes here&lt;/elementname&gt;</pre>
+            </p>
+            <br>
+            <h2>HTML Syntax and Structure</h2>
+            <p>
+                The basic structure of a HTML page is shown below. It is common practice to indent each child element in the head and body 
+                sections to make the document more readable when developing.
+            <pre>
+     1    &lt;!DOCTYPE html&gt;
+     2    &lt;html&gt;
+     3      &lt;head&gt;
+     4        &lt;title&gt;Example&lt;/title&gt;
+     5      &lt;/head&gt;
+     6      &lt;body&gt;
+     7        &lt;!--Content--&gt;
+     8        &lt;h1&gt;Hello&lt;/h1&gt;
+     9        &lt;p&gt;This is some sample html&lt;/p&gt;
+    10        &lt;a href="index.html"&gt;This is a link&lt;/a&gt;
+    11      &lt;/body&gt;
+    12    &lt;/html&gt; </pre>
+                With reference to the example above,
+                <ul>
+                    <li>Line 1 identifies a HTML5 document</li>
+                    <li>The &lt;html&gt; &lt;/html&gt; tags on line 2 and 11 marks the content of the page</li>
+                    <li>
+                        The head section marked by &lt;head&gt; &lt;/head&gt; at line 3 to 5 holds the title of the webpage,
+                        along with any other metadata the page
+                        needs such as scripts, linked resources, and styles.
+                    </li>
+                    <li>
+                        The body section marked by &lt;body&gt; &lt;/body&gt; at line 6 to 11 holds the content to be shown
+                        on the page. It uses various tags to
+                        correctly render content such as text, images, and videos.
+                    </li>
+                    <li>
+                        Comments in HTML are marked using &lt;!-- &nbsp --&gt;. Anything inside the comment tags will not be
+                        rendered in the webpage.
+                    </li>
+                </ul>
+            </p>
+
+            <p>
+                To organise my HTML document, I also used other tags such as div to divide up the content in the body to make it
+                easier to understand and style with CSS later.
+                There are many different tags that can be used in a HTML file. Some of the commonly
+                used ones are listed below.
+            </p>
+            <b>Head</b>
+            <table>
+                <tr>
+                    <td>title</td>
+                    <td>Represents the document's name. Is shown as the name of the tab in a browser</td>
+                </tr>
+                <tr>
+                    <td>link</td>
+                    <td>Links resources from other files. Used to link CSS files to HTML</td>
+                </tr>
+                <tr>
+                    <td>script</td>
+                    <td>Used to embed JavaScript into HTML documents</td>
+                </tr>
+                <tr>
+                    <td>meta</td>
+                    <td>Used to represent various other types of metadata that can't be defined with other tags</td>
+                </tr>
+            </table>
+
+            <br>
+            <b>Body</b>
+            <table>
+                <tr>
+                    <td>h1</td>
+                    <td>Marks text as a heading. Displays text in a large, bold font. Has variants such as h2, h3, etc
+                    </td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>Marks text as a paragraph. Displays text in normal font</td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td>Used to embed images into a web page</td>
+                </tr>
+                <tr>
+                    <td>table</td>
+                    <td>Used to show information in a table, requires other tags such as &lt;tr&gt; and &lt;td&gt; to
+                        display the content correctly</td>
+                </tr>
+                <tr>
+                    <td>ul</td>
+                    <td>Used to show an unordered list of items, uses &lt;li&gt; to mark individual list items</td>
+                </tr>
+                <tr>
+                    <td>nav</td>
+                    <td>Used to mark a section for navigation to other pages</td>
+                </tr>
+                <tr>
+                    <td>div</td>
+                    <td>Has no specific meaning, used to group elements that have some similarities</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

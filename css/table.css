@@ -1,12 +1,16 @@
-table {
-    margin: auto;
+table{
+    margin: 3vh 0;
 }
 
 table, th, td {
-    border: 1px solid black;
     border-collapse: collapse;
 }
 
-th, td{
-    padding:10px
+th, td {
+    padding-right: 2vh
+}
+
+.imgtable td img {
+    height: 30vh;
+    width: auto;
 }

@@ -6,18 +6,30 @@ html, body {
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    background-color: #000;
+    background-color: #0E0114;
 }
 
 header {
-    background-color: #52057b;
+    background-color: #400461;
     padding: 0.5%;
     padding-bottom: 1px;
     padding-left: 55px;
 }
 
 a {
-    color: #bc6ff1;
+    color: white;
+}
+
+pre{
+    font-size: 14px;
+}
+
+img {
+    width: 30vh;
+}
+
+.container {
+    margin-bottom: 5vh;
 }
 
 /*navbar*/
@@ -28,7 +40,7 @@ a {
     padding: 0;
     padding-left: 35px;
     overflow: hidden;
-    background-color: #52057b;
+    background-color: #400461;
 }
 
 .navbar li {
@@ -55,7 +67,7 @@ a {
 }
 
 li a:hover, .navbar a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
-    background-color: #892cdc;
+    background-color: #7307AD;
 }
 
 /* Dropdown content (hidden by default) */
@@ -63,7 +75,7 @@ li a:hover, .navbar a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #52057b;
+    background-color: #400461;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
