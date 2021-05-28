@@ -1,0 +1,51 @@
+<p>
+                There are many different tags that can be used in a html file. Some of the commonly used ones are listed below.
+            </p>
+            <b>Head</b>
+            <table>
+                <tr>
+                    <td>title</td> 
+                    <td>Represents the document's name. Is shown as the name of the tab in a browser</td> 
+                </tr>
+                <tr>
+                    <td>link</td>
+                    <td>Links resources from other files. Used to link CSS files to HTML</td>
+                </tr>
+                <tr>
+                    <td>script</td>
+                    <td>Used to embed JavaScript into HTML documents</td>
+                </tr>
+            </table>
+
+            <br>
+            <b>Body</b>
+            <table>
+                <tr>
+                    <td>h1</td>
+                    <td>Marks text as a heading. Displays text in a large, bold font. Has variants such as h2, h3, etc</td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>Marks text as a paragraph. Displays text in normal font</td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td>Used to embed images into a web page</td>
+                </tr>
+                <tr>
+                    <td>table</td>
+                    <td>Used to show information in a table, requires other tags such as &lt;tr&gt; and &lt;td&gt; to display the content correctly</td>
+                </tr>
+                <tr>
+                    <td>ul</td>
+                    <td>Used to show an unordered list of items, uses &lt;li&gt; to mark individual list items</td>
+                </tr>
+                <tr>
+                    <td>nav</td>
+                    <td>Used to mark a section for navigation to other pages</td>
+                </tr>
+                <tr>
+                    <td>div</td>
+                    <td>Has no specific meaning, used to mark groups of elements that have some similarities</td>
+                </tr>
+            </table>
