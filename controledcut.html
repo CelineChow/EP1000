@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment | 3D Model</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Assignment - Computer Controlled Cutting</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="assignment.html">Assignments</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="project.html">Project</a>
+                    <div class="dropdown-content">
+                        <a href="research.html">Research</a>
+                    </div>
+                </li>
+                <li><a href="tool.html">Tools</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h2>Computer Controlled Cutting</h2>
+            <p>
+                Computers allows us to cut materials using data. This reduces wastage of materials by using specific measurements
+            </p>
+
+            <h2>
+                Parametric Box
+            </h2>
+            <p>
+                Boxes are useful in many projects, and making a parametric box allows the design to be reused for other projects. To start, 
+                I defined all the parameters needed for the box.
+            </p>
+            <img src="img/boxparam.png" alt="" style="width: 50vh;">
+            <p>
+                Then, I sketched and extruded the base of the box using the length and width measurments. To create the tabs, I made another sketch on the side  
+                face of the box. I extruded the tab to the thickness defined by the parameters then used the rectangular pattern to repeat the tabs along the length 
+                of the side.
+            </p>
+            <img src="img/boxtabsketch.png" alt=""> <br>
+            <img src="img/boxtabtop.png" alt="">
+            <p>
+                I then created the side of the box by extruding it to thickness. To create the tabs on the side of the box, I used the combine tool to cut the tabs on 
+                the side panel. I then repeated the above steps for the tabs along the front and height of the box, then I duplicated it for the back and other side of the box.
+            </p>
+            <img src="img/boxsides.png" alt="" style="width: 50vh;">
+            <p>
+                For the lid, I created a sketch of the size of the lid using the defined parameters, then extruded it to thickness.
+            </p>
+            <img src="img/boxlidsketch.png" alt="" style="width: 50vh;">
+            <p>
+                To make the hinge, I made the sketch of 2 circles that will fit the connecting piece of the lid, then extruded it to both sides of the box.
+            </p>
+            <img src="img/boxhingesketch.png" alt="">
+
+            <p><b>Final Product</b></p>
+            <img src="img/boxfinished.png" alt="" style="width: 50vh;"> <br>
+            <iframe src="https://ichat1942.autodesk360.com/shares/public/SH919a0QTf3c32634dcf89a5462028403d00?mode=embed"
+                width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+                frameborder="0"></iframe>
+
+        </div>
+</body>
+
+</html>
