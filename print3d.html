@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment | 3D Model</title>
+    <title>Assignment | 3D Printing</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/table.css">
 </head>
@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>Assignment - </h1>
+            <h1>Assignment - 3D Printing</h1>
         </header>
 
         <nav class="navbar">
@@ -32,10 +32,59 @@
         </nav>
 
         <div class="content">
-            <h2> </h2>
+            <h2>3D Printing</h2>
             <p>
-                
+                As an exercise in 3D printing, we used the knight chess piece from the 3D modeling assignment and printed it using the 
+                Ultimaker 2+ in the lab. To prepare the 3D model for printing, we exported the model from Fusion 360 as a .stl 
+                file. I set the refinement to medium and selected the model for exporting.
             </p>
+            <img src="img/printexport.png" alt="Fusion 360 img">
+            <h3>Settings</h3>
+            <p>
+                To print the object, we must slice the model for the 3D printer, and the printer will recreate the slices layer by layer. 
+                This was done using Ultimaker Cura. The model is imported into the provided space where we can visualise the layers and 
+                edit the settings. The print settings I used are as follows: <br>
+                - Material: Generic PLA <br>
+                - Nozzle: 0.4 mm <br>
+                - Layer Height: 0.2 mm <br>
+                - Wall Thickness: 0.8 mm <br>
+                - Infill: 10% <br>
+                - Print Speed: 50 nm/s <br>
+                - Temperature: Default <br>
+                - Supports: Yes, 45 degree <br>
+                - Base Adhesion: Brim <br> 
+                <br>
+                With the original dimentions of my model, the printing time ended up too long, so I scaled it down to 70% of the original size for printing. 
+            </p>
+            <p>
+                In order to get the file to the printer, we used SD cards found in the lab. Cura can directly export the current file to a SD card connected to the 
+                computer. I then plugged it into the printer, selected the correct file and started the printing. Below are some progress photos of the printing process.
+            </p>
+            <table class="imgtable">
+                <td><img src="img/printbase.jpg" alt=""></td>
+                <td><img src="img/printprogress1.jpg" alt=""></td>
+                <td><img src="img/printprogress2.jpg" alt=""></td>
+                <td><img src="img/printprogress3.jpg" alt=""></td>
+            </table>
+            <p>This is the print after some attempts at cleaning it</p>
+            <img src="img/printdone.jpg" alt="">
+            <p>
+                While trying to remove the print supports and base, I had a lot of trouble and was unable to remove all of the supports. In addition to that, attempting to remove the supports 
+                damaged the final product slightly as some of the layers started seperating due to the force used to try and remove the support. Due to this, I decieded to try printing the 
+                chess piece again. This time, I wanted the chess piece to be a little bigger than the first one, so I scaled the print down to 90% instead of 70%, and increased the print speed 
+                to 80 nm/s to lower the printing time, as suggested by a classmate. All other settings besides the print speed were left the same as above. Below are some progress photos of the
+                second print.
+            </p>
+            <table class="imgtable">
+                <td><img src="img/print2progress1.jpg" alt=""></td>
+                <td><img src="img/print2progress2.jpg" alt=""></td>
+            </table>
+            <p>
+                As the second print was slightly bigger, it was much easier to get the pilers on to the supports and pull them out, and succeded in cleaning up the print more than the initial try.
+                There was still some residue in hard to reach places but it was already much better. The increased print speed did not affect the quality of the print. <br>
+                The completed second print is below.
+            </p>
+            <img src="img/print2done.jpg" alt="">
         </div>
 </body>
 
